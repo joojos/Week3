@@ -71,6 +71,8 @@ function game(){
     console.log("The winner is the COMPUTER!");
     }else if(compWin < playerWin){
     console.log("The winner is the YOU!");
+    }else {
+        console.log("it's a tie!");  
     }
 }
 
